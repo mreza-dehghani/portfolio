@@ -1,0 +1,56 @@
+._skills {
+    padding: 0px 10px;
+    position: relative;
+    bottom: 300px;
+
+    ._skills_container {
+        background-color: $white;
+        border: 1px solid $white;
+        padding: 20px 5px;
+        text-align: center;
+        border-radius: 20px;
+        box-shadow: 0 0 3px $white-xx;
+
+        ._content {
+            max-width: 468px;
+            margin: auto;
+            
+            img {
+                margin: 30px 0;
+            }
+
+            h3 {
+                font-size: 1.6em;
+                color: $sunset5;
+                border-bottom: 1px solid $white-x;
+                padding: 10px;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+                li {
+                    color: $sunset5;
+                    padding: 8px 10px;
+                    .progress {
+                        height: 20px;
+                        .progress-bar {
+                            background-image:  linear-gradient(90deg,$sunset3 0%, $sunset2 75%);
+                            font-size: 1.2em;
+                            text-align: left;
+                            padding-left: 10px;
+
+                            span {
+                                text-align: right;
+                                font-size: 0.7em;
+                                font-weight: bold;
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}

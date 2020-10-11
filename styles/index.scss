@@ -1,0 +1,65 @@
+@import 'base/variable';
+@import './components/Navbar';
+@import './components/Header';
+@import './components/Hero';
+@import './components/Skills';
+@import './components/Footer';
+@import './components/Services';
+@import './components/screen/ContactMe';
+
+// icons
+@import 'library/font-awesome/css/font-awesome.css';
+
+// @import 'font/Sahel.woff';
+@font-face {
+    font-family: 'sahel';
+    src: url('font/Sahel.woff') format('woff');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&family=Varela+Round&display=swap');
+
+// scroll bar
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: $white-x;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $black-xx;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: $black-x;
+  }
+
+body {
+    // font-family: 'sahel';
+    // font-family: "Comic Sans MS", cursive, sans-serif;
+    // font-family: 'Secular One', sans-serif;
+    // font-family: 'Rubik', sans-serif;
+    // font-family: 'Rubik', sans-serif;
+  font-family: 'Varela Round', sans-serif;
+
+}
+
+.container-fluid {
+    padding: 0;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1240px;
+}
+
+a:hover {
+    text-decoration: none;
+}

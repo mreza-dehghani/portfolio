@@ -1,0 +1,20 @@
+._service {
+    padding: 16px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 11px 10px $white-x, 0 0 20px 0px $white-x;
+    background-color: $white;
+
+    h3 {
+        text-align: left;
+        font-size: 1.4em;
+        padding: 10px 5px 15px;
+        border-bottom: 5px dotted $sunset1;
+        color: $sunset5;
+    }
+
+    p {
+        text-align: justify;
+        color: $sunset5;
+    }
+}

@@ -1,0 +1,17 @@
+@import './Service';
+
+._services {
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+    padding:35px 0 70px;
+
+    h1 {
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    ._service_container {
+        padding: 70px 10px 20px;
+    }
+}
