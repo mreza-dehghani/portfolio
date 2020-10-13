@@ -20,7 +20,7 @@ export default class Footer extends Component {
                             {/* Living, learning, leveling up one day at a time. */}
                         </h5>
                         <div className="_link_wrapper">
-                            <a href="https://www.linkedin.com/in/mohammadreza-dehghani-8112a11b9" target="_blank"><i className="fa fa-linkedin-in"></i></a>
+                            <a href="https://www.linkedin.com/in/mohammadreza-dehghani-8112a11b9" target="_blank"><i className="fab fa-linkedin-in"></i></a>
                             <a href="https://www.instagram.com/mreza_dehqani/" target="_blank"><i className="fa fa-instagram"></i></a>
                             <a href="mailto:mrezavlb@gmail.com" target="_blank"><i className="fa fa-envelope-o"></i></a>
                             <a href="https://github.com/mreza-dehghani" target="_blank"><i className="fa fa-github"></i></a>
